@@ -1,3 +1,5 @@
+package v1;
+
 public class CommandMain {
     public static void main(String[] args) {
         Comp comp = new Comp();

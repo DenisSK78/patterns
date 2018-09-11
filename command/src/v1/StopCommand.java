@@ -1,3 +1,5 @@
+package v1;
+
 public class StopCommand implements Command{
     private Comp comp;
 

@@ -1,3 +1,3 @@
 public interface Laptop extends Computer {
-    void doSamething();
+    void doSomething();
 }

@@ -1,3 +1,3 @@
 public interface Computer {
-    void doSamething();
+    void doSomething();
 }

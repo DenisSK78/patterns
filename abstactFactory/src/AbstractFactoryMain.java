@@ -14,6 +14,6 @@ public class AbstractFactoryMain {
 
         List<Computer> allComps = Arrays.asList(lapL, tabL, lapA, tabA);
         allComps.forEach(System.out::println);
-        allComps.forEach(Computer::doSamething);
+        allComps.forEach(Computer::doSomething);
     }
 }

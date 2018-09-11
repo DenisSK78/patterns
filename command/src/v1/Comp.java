@@ -1,3 +1,5 @@
+package v1;
+
 class Comp {
     void start(){
         System.out.println("Start");

@@ -3,7 +3,7 @@ public class AsusLaptop implements Laptop {
     String name = "Asus laptop";
 
     @Override
-    public void doSamething() {
+    public void doSomething() {
         System.out.println("New Asus laptop loaded!");
     }
 

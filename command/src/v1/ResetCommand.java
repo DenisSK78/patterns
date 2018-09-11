@@ -1,3 +1,5 @@
+package v1;
+
 public class ResetCommand implements Command{
     private Comp comp;
 
