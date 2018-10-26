@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c30da3c5-aeb6-4bf1-aee5-53a025024f92" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/patt_s/src/bridge/BridgeApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patt_s/src/bridge/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patt_s/src/bridge/Geely.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patt_s/src/bridge/Hatchback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patt_s/src/bridge/Make.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patt_s/src/bridge/Sedan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patt_s/src/bridge/Toyota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patt_s/src/composite/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patt_s/src/composite/Composite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patt_s/src/composite/CompositeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patt_s/src/composite/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patt_s/src/composite/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patt_s/src/composite/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,50 +19,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InterpreterApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patt_s/src/interpreter/InterpreterApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Expression.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patt_s/src/interpreter/Expression.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Context.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patt_s/src/interpreter/Context.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BridgeApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BridgeApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/patt_s/src/bridge/BridgeApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            <state relative-caret-position="162">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patt_s/src/bridge/Car.java">
+      <file leaf-file-name="Shape.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/patt_s/src/composite/Shape.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="54">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Square.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/patt_s/src/composite/Square.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="23" selection-start-line="4" selection-end-line="12" selection-end-column="5" />
               <folding>
-                <element signature="e#85#86#0" expanded="true" />
-                <element signature="e#117#118#0" expanded="true" />
+                <element signature="e#118#119#0" expanded="true" />
+                <element signature="e#149#150#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#96#97#0" expanded="true" />
+                <element signature="e#132#133#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Circle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/patt_s/src/composite/Circle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+              <folding>
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#96#97#0" expanded="true" />
+                <element signature="e#132#133#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Composite.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/patt_s/src/composite/Composite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompositeMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/patt_s/src/composite/CompositeMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/patt_s/src/composite/Triangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+              <folding>
+                <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#98#99#0" expanded="true" />
+                <element signature="e#134#135#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,40 +122,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Toyota.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patt_s/src/bridge/Toyota.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#95#96#0" expanded="true" />
-                <element signature="e#131#132#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Geely.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/patt_s/src/bridge/Geely.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="90">
               <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
               <folding>
                 <element signature="e#95#96#0" expanded="true" />
-                <element signature="e#131#132#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sedan.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patt_s/src/bridge/Sedan.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#78#79#0" expanded="true" />
-                <element signature="e#105#106#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,8 +138,8 @@
       <file leaf-file-name="Hatchback.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/patt_s/src/bridge/Hatchback.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            <state relative-caret-position="144">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
                 <element signature="e#86#87#0" expanded="true" />
                 <element signature="e#113#114#0" expanded="true" />
@@ -156,11 +174,17 @@
         <option value="$PROJECT_DIR$/patt_s/src/interpreter/Context.java" />
         <option value="$PROJECT_DIR$/patt_s/src/bridge/Make.java" />
         <option value="$PROJECT_DIR$/patt_s/src/bridge/Geely.java" />
-        <option value="$PROJECT_DIR$/patt_s/src/bridge/Toyota.java" />
         <option value="$PROJECT_DIR$/patt_s/src/bridge/Car.java" />
         <option value="$PROJECT_DIR$/patt_s/src/bridge/Hatchback.java" />
+        <option value="$PROJECT_DIR$/patt_s/src/bridge/Toyota.java" />
         <option value="$PROJECT_DIR$/patt_s/src/bridge/Sedan.java" />
         <option value="$PROJECT_DIR$/patt_s/src/bridge/BridgeApp.java" />
+        <option value="$PROJECT_DIR$/patt_s/src/composite/Shape.java" />
+        <option value="$PROJECT_DIR$/patt_s/src/composite/Composite.java" />
+        <option value="$PROJECT_DIR$/patt_s/src/composite/Square.java" />
+        <option value="$PROJECT_DIR$/patt_s/src/composite/Triangle.java" />
+        <option value="$PROJECT_DIR$/patt_s/src/composite/Circle.java" />
+        <option value="$PROJECT_DIR$/patt_s/src/composite/CompositeMain.java" />
       </list>
     </option>
   </component>
@@ -184,6 +208,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -208,14 +234,12 @@
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
               <item name="patt_s" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bridge" type="462c0819:PsiDirectoryNode" />
+              <item name="composite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BridgeApp">
+  <component name="RunManager" selected="Application.CompositeMain">
     <configuration name="BridgeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bridge.BridgeApp" />
       <module name="Examples" />
@@ -254,6 +278,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="CompositeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="composite.CompositeMain" />
+      <module name="Examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,17 +317,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="stateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="state.v1.stateMain" />
-      <module name="Examples" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="state.v1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="stateMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="state.v2.stateMain2" />
@@ -344,19 +368,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.stateMain" />
       <item itemvalue="Application.stateMain2" />
       <item itemvalue="Application.StrategyMain" />
       <item itemvalue="Application.InterpreterApp" />
       <item itemvalue="Application.BridgeApp" />
+      <item itemvalue="Application.CompositeMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompositeMain" />
         <item itemvalue="Application.BridgeApp" />
         <item itemvalue="Application.InterpreterApp" />
         <item itemvalue="Application.StrategyMain" />
         <item itemvalue="Application.stateMain2" />
-        <item itemvalue="Application.stateMain" />
       </list>
     </recent_temporary>
   </component>
@@ -374,12 +398,13 @@
       <workItem from="1538330957161" duration="215000" />
       <workItem from="1540465284053" duration="2415000" />
       <workItem from="1540484300423" duration="1258000" />
-      <workItem from="1540490613518" duration="2407000" />
+      <workItem from="1540490613518" duration="3404000" />
+      <workItem from="1540574271878" duration="1683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7185000" />
+    <option name="totallyTimeSpent" value="9865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -398,7 +423,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3298969" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26308724" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2671141" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -432,48 +457,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/patt_s/src/decorator/Mushrooms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/patt_s/src/delegate/delegateMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/patt_s/src/methodFactory/FactoryMethodMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/patt_s/src/state/v1/stateMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/patt_s/src/state/v2/stateMain2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/patt_s/src/strategy/IStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/patt_s/src/strategy/StrategyMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -730,39 +713,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/patt_s/src/bridge/Make.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/patt_s/src/bridge/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="144">
           <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patt_s/src/bridge/Toyota.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding>
-            <element signature="e#85#86#0" expanded="true" />
-            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/patt_s/src/bridge/Geely.java">
+    <entry file="file://$PROJECT_DIR$/patt_s/src/bridge/Sedan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          <folding>
-            <element signature="e#95#96#0" expanded="true" />
-            <element signature="e#131#132#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/patt_s/src/bridge/Hatchback.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        <state relative-caret-position="144">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
             <element signature="e#86#87#0" expanded="true" />
             <element signature="e#113#114#0" expanded="true" />
@@ -770,32 +749,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/patt_s/src/bridge/Toyota.java">
+    <entry file="file://$PROJECT_DIR$/patt_s/src/bridge/Geely.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
           <folding>
             <element signature="e#95#96#0" expanded="true" />
-            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/patt_s/src/bridge/Sedan.java">
+    <entry file="file://$PROJECT_DIR$/patt_s/src/bridge/Make.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#78#79#0" expanded="true" />
-            <element signature="e#105#106#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="54">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/patt_s/src/bridge/BridgeApp.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patt_s/src/composite/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patt_s/src/composite/Composite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patt_s/src/composite/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#98#99#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patt_s/src/composite/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <caret line="6" column="23" selection-start-line="4" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patt_s/src/composite/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patt_s/src/composite/CompositeMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
         </state>
       </provider>
     </entry>
