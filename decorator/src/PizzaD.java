@@ -1,8 +1,6 @@
-package decorator;
-
-public class Pizza extends PizzaIngredient {
+public class PizzaD extends PizzaIngredient {
     //Concrete decorator
-    public Pizza(Ingredient ingredient) {
+    public PizzaD(Ingredient ingredient) {
         super(ingredient);
     }
 
