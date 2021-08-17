@@ -5,7 +5,7 @@ import java.util.Date;
 public class MainBuilderClass {
     public static void main(String[] args) {
         Employee emp = new Employee.Builder()
-                .setName("Вася")
+                .setName("Victor")
                 .setBirthday(new Date())
                 .setProfession("Tester")
                 .build();
