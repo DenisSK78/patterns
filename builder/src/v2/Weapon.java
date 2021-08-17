@@ -7,12 +7,14 @@ public enum Weapon implements Describable {
         public String getDescription() {
             return "sword";
         }
-    }, BOW {
+    },
+    BOW {
         @Override
         public String getDescription() {
             return "bow";
         }
-    }, STAFF {
+    },
+    STAFF {
         @Override
         public String getDescription() {
             return "staff";

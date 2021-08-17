@@ -7,7 +7,8 @@ public enum Gender implements Describable {
         public String getDescription() {
             return "Male";
         }
-    }, FEMALE {
+    },
+    FEMALE {
         @Override
         public String getDescription() {
             return "Female";
