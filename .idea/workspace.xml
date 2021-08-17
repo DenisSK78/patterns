@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c30da3c5-aeb6-4bf1-aee5-53a025024f92" name="Default" comment="adapter">
-      <change afterPath="$PROJECT_DIR$/adapter/src/AdapterForKitchenerSecond.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/AdapterMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/KitchenerSecond.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/PrepareEgs.java" afterDir="false" />
+    <list default="true" id="c30da3c5-aeb6-4bf1-aee5-53a025024f92" name="Default" comment="bridge">
+      <change afterPath="$PROJECT_DIR$/bridge/src/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bridge/src/BridgeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bridge/src/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bridge/src/JavaDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bridge/src/JavascriptDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bridge/src/Market.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bridge/src/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Examples.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/src/Adapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/src/KitchenAsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/src/Kitchen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/src/Kitchener.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/src/Kitchener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/src/PizzaCook.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/src/MealCook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -123,10 +123,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
       <recent name="v3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\LearningJava\patterns" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
   <component name="RubyModuleManagerSettings">
@@ -144,9 +148,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AdapterMain">
+  <component name="RunManager" selected="Application.BridgeMain">
     <configuration name="AdapterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AdapterMain" />
+      <module name="Examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BridgeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BridgeMain" />
       <module name="Examples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -162,14 +174,6 @@
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="delegateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="delegateMain" />
-      <module name="Examples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -210,19 +214,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Examples" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Examples" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -234,18 +225,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.FactoryMethodMain" />
-      <item itemvalue="Application.delegateMain" />
       <item itemvalue="Application.stateMain" />
       <item itemvalue="Application.stateMain2" />
       <item itemvalue="Application.AdapterMain" />
+      <item itemvalue="Application.BridgeMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BridgeMain" />
         <item itemvalue="Application.AdapterMain" />
         <item itemvalue="Application.stateMain2" />
         <item itemvalue="Application.stateMain" />
         <item itemvalue="Application.FactoryMethodMain" />
-        <item itemvalue="Application.delegateMain" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629191064473</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adapter">
+      <created>1629194103506</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1629194103506</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -364,7 +362,8 @@
     <MESSAGE value="refactoring" />
     <MESSAGE value="refactoring and git ignore" />
     <MESSAGE value="adapter" />
-    <option name="LAST_COMMIT_MESSAGE" value="adapter" />
+    <MESSAGE value="bridge" />
+    <option name="LAST_COMMIT_MESSAGE" value="bridge" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/patt_s/src/strategy/StrategyMain.java">
