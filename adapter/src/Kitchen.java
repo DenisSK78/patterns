@@ -1,10 +1,10 @@
-public class KitchenAsAdapter {
+public class Kitchen {
 
     private String doSmth = "doSmth";
 
-    public void work(Kitchener kitchener){
+    public void work(MealCook mealCook){
         doSmth();
-        kitchener.cook();
+        mealCook.cook();
         doSmth();
     }
 

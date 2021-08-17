@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c30da3c5-aeb6-4bf1-aee5-53a025024f92" name="Default" comment="refactoring and git ignore">
-      <change afterPath="$PROJECT_DIR$/adapter/src/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/KitchenAsAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/Kitchener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/PizzaCook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Examples.iml" afterDir="false" />
+    <list default="true" id="c30da3c5-aeb6-4bf1-aee5-53a025024f92" name="Default" comment="adapter">
+      <change afterPath="$PROJECT_DIR$/adapter/src/AdapterForKitchenerSecond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/src/AdapterMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/src/KitchenerSecond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/src/PrepareEgs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/builder/src/v3/MainBuilderClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/builder/src/v3/MainBuilderClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/state/src/v2/WeekEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/state/src/v2/WeekEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/state/src/v2/stateMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/state/src/v2/stateMain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/src/Adapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/src/KitchenAsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/src/Kitchen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/src/Kitchener.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/src/Kitchener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/src/PizzaCook.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/src/MealCook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -144,9 +144,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Adapter">
-    <configuration name="Adapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Adapter" />
+  <component name="RunManager" selected="Application.AdapterMain">
+    <configuration name="AdapterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AdapterMain" />
       <module name="Examples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -237,11 +237,11 @@
       <item itemvalue="Application.delegateMain" />
       <item itemvalue="Application.stateMain" />
       <item itemvalue="Application.stateMain2" />
-      <item itemvalue="Application.Adapter" />
+      <item itemvalue="Application.AdapterMain" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Adapter" />
+        <item itemvalue="Application.AdapterMain" />
         <item itemvalue="Application.stateMain2" />
         <item itemvalue="Application.stateMain" />
         <item itemvalue="Application.FactoryMethodMain" />
@@ -294,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629189480265</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adapter">
+      <created>1629191064473</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1629191064473</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -356,7 +363,8 @@
     <MESSAGE value="Builder 3" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="refactoring and git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring and git ignore" />
+    <MESSAGE value="adapter" />
+    <option name="LAST_COMMIT_MESSAGE" value="adapter" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/patt_s/src/strategy/StrategyMain.java">
